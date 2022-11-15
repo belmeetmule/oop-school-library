@@ -25,3 +25,22 @@ git clone https://github.com/belmeetmule/oop-school-library.git
 - GitHub: [@belmeetmule](https://github.com/belmeetmule)
 - Twitter: [@belmeetmule](https://twitter.com/belmeetmule)
 - LinkedIn: [belmeetmule](https://linkedin.com/in/belmeetmule)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/belmeetmule/portfolio/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thank You [Microverse](www.microverse.org) team that produced the template of this project.
+- Thanks to everyone who will get time to check this code and suggest any [issues](https://github.com/belmeetmule/hello-world/issues)
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
