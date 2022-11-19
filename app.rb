@@ -31,7 +31,7 @@ class App
     else
       puts "People's list, count(#{@people.count}) :\n\n"
       @people.each_with_index do |person, index|
-        puts "#{index + 1}) Type: #{person.type}, Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
+        puts "#{index + 1}) Name: #{person.name}, ID: #{person.id}, Age: #{person.age}, Type: #{person.type}"
       end
     end
   end
