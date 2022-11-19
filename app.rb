@@ -65,7 +65,7 @@ class App
     student = Student.new(classroom, age, name: name, parent_permission: has_permission)
     @people << student unless @people.include?(student)
 
-    puts "The student '#{name}' aged '#{age}' with the classroom '#{classroom}' was created successfully! 👍"
+    puts "The student '#{name}' aged '#{age}' with the classroom '#{classroom}' was created successfully!!"
   end
 
   def register_teacher
@@ -81,7 +81,7 @@ class App
     teacher = Teacher.new(specialization, age, name)
     @people << teacher unless @people.include?(teacher)
 
-    puts "The teacher '#{name}' aged '#{age}' with specialization in '#{specialization}' was created successfully! 👍"
+    puts "The teacher '#{name}' aged '#{age}' with specialization in '#{specialization}' was created successfully!!"
   end
 
   def permission?
@@ -94,7 +94,7 @@ class App
     when 'y', 'Y'
       true
     else
-      puts 'Incorrect choice, kindly enter \'y\', \'Y\' or \'n\', \'N\' 😀'
+      puts 'Incorrect choice, kindly enter only [\'y\' or \'Y\' or \'n\' or \'N\'] '
       permission?
     end
   end
@@ -115,9 +115,9 @@ class App
 
   def list_all_books
     if @books.empty?
-      puts 'The book list is empty, add some books... 😀'
+      puts 'The book list is empty, add some books...'
     else
-      puts "Books list, count(#{@books.count})📚 :\n\n"
+      puts "Books list, count(#{@books.count}):\n\n"
       @books.each_with_index do |book, index|
         puts "#{index + 1}) Title: '#{book.title}', Author: #{book.author}"
       end
