@@ -1,8 +1,7 @@
 require_relative './app'
 
 def menu
-  puts "\n************************************************"
-  puts "\n*Please choose an option by entering a number: *"
+  puts "\n*Please choose an option by entering a number:"
   options = [
     '1 - List all books',
     '2 - List all people',
